@@ -19,7 +19,7 @@ export default class BarSign extends Component {
       }
 
     handleClick(){
-        const newPromptsKeys = _.shuffle(_.range(prompts.length)).slice(0,16)
+        const newPromptsKeys = _.shuffle(_.range(prompts.length)).slice(0,9)
         const newPrompts = _.map(newPromptsKeys, function(val){return prompts[val]})
         this.setState({
             value: newPrompts,

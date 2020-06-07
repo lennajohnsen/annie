@@ -13,6 +13,7 @@ export default class BingoCard extends React.Component{
                 <BingoSquare
                     value={prompt.value}
                     key={prompt.key}
+                    answer={prompt.answer}
                 />
             ))}
             </div>

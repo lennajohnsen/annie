@@ -122,8 +122,8 @@
 }
 
 .bingo-square{
-  height: 20%;
-  width: 20%;
+  height: 33%;
+  width: 33%;
   align-items: center;
   justify-content: center;
   border-image: url('./assets/drawn-outline-01.png') 93 92 87 92 stretch;
@@ -132,8 +132,8 @@
 }
 
 .bingo-squaredone{
-  height: 20%;
-  width: 20%;
+  height: 33%;
+  width: 33%;
   align-items: center;
   justify-content: center;
   border-image: url('./assets/drawn-outline-01.png') 93 92 87 92 stretch;
@@ -207,7 +207,7 @@
 
 
 
-@media only screen and (min-device-width: 1200px){
+@media only screen and (min-device-width: 800px){
   .bar-sign{
     width:40vh;
     height:40vh;
@@ -258,3 +258,5 @@
       opacity: 80%;
     }
   }
+
+ 
