@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import _ from 'underscore';
 
-import sign from '../assets/sign-02-02.png';
+// import sign from '../assets/sign-02-02.png';
 import BingoCard from './BingoCard';
 
 import prompts from './PromptsDatabase';
@@ -34,8 +34,9 @@ export default class BarSign extends Component {
 
             <React.Fragment>
 
-            <div onClick={this.handleClick} className={"bar-sign" + (this.state.lit ? "lit" : "")}>
-                <img src={sign} alt="sign" className={"bar-sign" + (this.state.lit ? "lit" : "")}/>              
+            <div onClick={this.handleClick} className="bar-sign">
+                <h2>GENERATE THE BOARD</h2>
+                {/* <img src={sign} alt="sign" className={"bar-sign" + (this.state.lit ? "lit" : "")}/>               */}
             </div>
          
             <BingoCard
