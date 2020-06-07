@@ -23,33 +23,25 @@ export default class Intro extends Component {
                     </div>
 
                     <div className="modal-text">
-                    First debuted in January 2019 as a R markdown, this dive bar drinking game was intended to be a   
-                    productive procrastination side project for IAP. Now that our coding skills have improved and our horizons
-                    have extended beyond R, this year we've chosen to procrastinate by making it ~fancier~. 
+                    It's (almost) our very own Annie Calef's birthday!! Due to forces out of our control (thanks, covid), 
+                    we're celebrating in a socially distant way this year.
                     <br>
                     </br>
                     <br>
                     </br> 
-                    We'll be keeping our list of Boston-area dive bars and the 'divey-ness' algorithm to ourselves for now, 
-                    but here you'll find the bingo card generator. 
+                    This little bingo game is designed to keep the adult beverages flowing (feel free to define "adult" as you prefer).
+                    The rules are simple. We each read a prompt to Annie and she must answer the question. 
                     <br>
                     </br>
                     <br>
                     </br> 
-                    The rules themselves are pretty simple. Select some dive bars, make a route, bring your phone (and keys) (and wallet)
-                    keep this page open in a browser, and check off the Things you witness. First one to get four in a row wins. (Wins what, 
-                    we'll leave to you).
-                    <br>
-                    </br>
-                    <br>
-                    </br>
-                    By pressing the button below you are absolving us of all liability for the poor decisions you make while
-                    adventuring about on a dive bar crawl. And of course, remember to tip your bartenders.
+                    If she gets it right, she drinks and we all flip the square. If she gets it wrong, everyone drinks anyway. 
+                    First one to a bingo must (obviously) first yell BINGO and then takes a drink (shot?) with Annie.
                     </div>
 
                     <div className="modal-footer" onClick = {this.handleClose} >
                         <img src={beerClink} alt="beer" className="beer-icon"/>
-                        Yes, I am an "adult"
+                        Yes, I am ready to PARTY.
                     </div>
 
                 </div>
