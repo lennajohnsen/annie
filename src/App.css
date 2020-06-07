@@ -3,8 +3,8 @@
 }
 
 .App-body {
-  background-color: #d2f5f2;
-  /* background-color: #28341d; */
+  /* background-color: #d2f5f2; */
+  background-color: #008f6b;
   /* background-color: #A899BA; */
   min-height: 100vh;
   display: flex;
@@ -91,10 +91,10 @@
 }
 
 .bar-sign{
-  width:100%;
+  /* width:60%; */
   height:20vh;
   object-fit: cover;
-  /* margin-bottom: 3vh; */
+  margin: 10px 0 10px 0;
   filter:saturate(100%)
 }
 
@@ -116,9 +116,10 @@
   align-items: center;
   width: 50vh;
   height: 50vh;
-  padding: 3%;
+  padding: 1%;
   border-radius: 2%;
   box-shadow: 5px 5px 2px 1px darkslategrey;
+  margin-top: 10px;
 }
 
 .bingo-square{
@@ -139,7 +140,7 @@
   border-image: url('./assets/drawn-outline-01.png') 93 92 87 92 stretch;
   border-width: 6px;
   border-style: dashed;
-  background-color: red;
+  background-color: black;
   /* filter:saturate(100%); */
   /* opacity: 80%; */
 }
@@ -151,7 +152,7 @@
 
 .bingo-text{
   font-size: calc(4px + 2vmin);
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Comic Sans MS', sans-serif;
   font-weight: 500;
   font-style: normal;
   color: black;
@@ -173,7 +174,7 @@
 
 .footer-text{
   font-size: calc(4px + 2vmin);
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Comic Sans MS', monospace;
   font-weight: 500;
   font-style: normal;
   color: black;

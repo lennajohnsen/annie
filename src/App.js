@@ -11,8 +11,8 @@ function App() {
 
         <BarSign/>
 
-        <p className="script">please remember to drink responsibly
-          {/* <br></br> and support local businesses. */}
+        <p className="script">please remember to drink responsibly!
+          <br></br> lol jk.
         </p>
   
 
