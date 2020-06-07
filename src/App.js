@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import BarSign from './components/BarSign';
 import Intro from './components/Intro';
-import BreweryInfo from './components/BreweryInfo';
 
 function App() {
   return (
@@ -12,11 +11,10 @@ function App() {
 
         <BarSign/>
 
-        <p className="script">please remember to drink responsibly
-          {/* <br></br> and support local businesses. */}
+        <p className="script">please remember to drink responsibly!
+          <br></br> lol jk.
         </p>
-
-        <BreweryInfo />        
+  
 
       </header>
     </div>
