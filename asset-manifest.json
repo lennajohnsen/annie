@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/annie/static/css/main.50e8a4e9.chunk.css",
+    "main.js": "/annie/static/js/main.4fb242a1.chunk.js",
+    "main.js.map": "/annie/static/js/main.4fb242a1.chunk.js.map",
+    "runtime-main.js": "/annie/static/js/runtime-main.1b107090.js",
+    "runtime-main.js.map": "/annie/static/js/runtime-main.1b107090.js.map",
+    "static/js/2.4bbab625.chunk.js": "/annie/static/js/2.4bbab625.chunk.js",
+    "static/js/2.4bbab625.chunk.js.map": "/annie/static/js/2.4bbab625.chunk.js.map",
+    "index.html": "/annie/index.html",
+    "precache-manifest.379cde1413e6fc3dfc51209a25e10991.js": "/annie/precache-manifest.379cde1413e6fc3dfc51209a25e10991.js",
+    "service-worker.js": "/annie/service-worker.js",
+    "static/css/main.50e8a4e9.chunk.css.map": "/annie/static/css/main.50e8a4e9.chunk.css.map",
+    "static/js/2.4bbab625.chunk.js.LICENSE": "/annie/static/js/2.4bbab625.chunk.js.LICENSE",
+    "static/media/App.css": "/annie/static/media/drawn-outline-01.f5d147f8.png",
+    "static/media/jojo.jpg": "/annie/static/media/jojo.350b110a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b107090.js",
+    "static/js/2.4bbab625.chunk.js",
+    "static/css/main.50e8a4e9.chunk.css",
+    "static/js/main.4fb242a1.chunk.js"
+  ]
+}
